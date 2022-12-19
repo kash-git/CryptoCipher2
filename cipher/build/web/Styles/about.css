@@ -1,0 +1,17 @@
+section {
+    padding: 30px 10%;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+p {
+    margin: 20px 0;
+    line-height: 1.8;
+}
+
+li {
+    margin: 10px 0;
+    color: black;
+}

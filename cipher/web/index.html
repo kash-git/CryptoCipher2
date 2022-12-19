@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoCipher</title>
+    <link rel="stylesheet" href="Styles/style.css">
+    
+    <!-- FONTAWSOME for icons -->
+    <script src="https://kit.fontawesome.com/e8d7a0801b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><h1 class="title">CryptoCipher</h1></a>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="#">Home</a></li>
+                <li><a href="how_to_use.html">How to use</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <section class="main">
+        <div class="container">
+            <form action="enc" method="post" enctype="multipart/form-data">
+            <textarea name="inp" id="input" cols="80" rows="10" placeholder="Enter text to encrypt"></textarea><br>
+            <input type="file" name="file" id="file" class="inputfile" />
+
+            <br>
+            <button class="encryptBtn" type="submit"><i class="fa-solid fa-lock"></i> Encrypt</button></a>
+            <!--<a href="#"><button class="downloadBtn" type="submit"><i class="fa-solid fa-file-arrow-down"></i> Download</button></a>-->
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>
